@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">VEILWAKE — 60-second live-data walkthrough</title>
+  <desc id="desc">Read the current. Keep the lights on. Click to open the demo video. Eight Nansen API views, fictional consequences, no wallet or wagers.</desc>
+  <rect width="1280" height="720" fill="#1f2d26"/>
+  <g fill="none" stroke="#91a28d" opacity=".24" stroke-width="2">
+    <path d="M-80 465 Q100 390 280 465 T640 465 T1000 465 T1360 465"/>
+    <path d="M-80 515 Q100 440 280 515 T640 515 T1000 515 T1360 515"/>
+    <path d="M-80 565 Q100 490 280 565 T640 565 T1000 565 T1360 565"/>
+    <path d="M-80 615 Q100 540 280 615 T640 615 T1000 615 T1360 615"/>
+  </g>
+  <path d="M-80 540 Q100 465 280 540 T640 540 T1000 540 T1360 540" fill="none" stroke="#c36547" stroke-width="3" opacity=".8"/>
+  <text x="86" y="106" font-family="Consolas,monospace" font-size="19" letter-spacing="4" fill="#d68a6e">NANSEN MERIDIAN BUILDATHON</text>
+  <text x="82" y="255" font-family="Georgia,serif" font-size="104" letter-spacing="15" fill="#fbf9f3">VEILWAKE</text>
+  <text x="86" y="324" font-family="Georgia,serif" font-size="35" font-style="italic" fill="#f0d5c8">Read the current. Keep the lights on.</text>
+  <text x="86" y="382" font-family="Arial,sans-serif" font-size="24" fill="#dbdecb">Learn to investigate before you invest.</text>
+  <rect x="86" y="435" width="399" height="62" rx="8" fill="#c36547"/>
+  <path d="M110 452 L110 480 L133 466 Z" fill="#fbf9f3"/>
+  <text x="150" y="474" font-family="Arial,sans-serif" font-size="23" font-weight="bold" fill="#fbf9f3">Watch the 60-second demo</text>
+  <text x="86" y="651" font-family="Consolas,monospace" font-size="18" fill="#dbdecb">8 NANSEN API VIEWS · LIVE-DATA CAPTURES · FICTIONAL CONSEQUENCES</text>
+</svg>

@@ -1,0 +1,428 @@
+{
+  "schema": "veilwake-release-manifest/1",
+  "generatedAtUtc": "2026-09-27T12:51:31.252Z",
+  "tool": "scripts/prepare-release.mjs",
+  "node": "v22.23.3",
+  "platform": "win32",
+  "sourceRepo": "local source checkout (machine path omitted)",
+  "output": "veilwake-github-ready",
+  "zip": "veilwake-github-ready.zip",
+  "repoUrl": "https://github.com/tko1229/veilwake",
+  "repoUrlPublicVerified": false,
+  "checks": [
+    {
+      "name": "npm ci --include=dev",
+      "status": "PASS",
+      "seconds": 95.1
+    },
+    {
+      "name": "npm test",
+      "status": "PASS",
+      "seconds": 23.1
+    },
+    {
+      "name": "npm run typecheck",
+      "status": "PASS",
+      "seconds": 39.6
+    },
+    {
+      "name": "npm run build",
+      "status": "PASS",
+      "seconds": 51.9
+    }
+  ],
+  "checksVerified": true,
+  "video": {
+    "source": "veilwake-buildathon-60s.mp4",
+    "bytes": 48497462,
+    "sha256": "86d0501a4748bda7b095bea3d5a8ec96e0ea42e24e9c184a40edce2f85d11648",
+    "timescale": 1000,
+    "durationSeconds": 60,
+    "width": 1920,
+    "height": 1080,
+    "bundlePath": "media/veilwake-buildathon-60s.mp4",
+    "repoAction": "copied into repo",
+    "nature": "edited walkthrough of live-run screenshots; not a continuous screen recording; manual watch required"
+  },
+  "poster": {
+    "path": "media/demo-poster.svg",
+    "bytes": 1867,
+    "sha256": "d41d6c326e81af7ce50e2c9c04a4b470364ec55a5eb40b36dbe1518bd2291e60"
+  },
+  "xPost": {
+    "file": "X-POST.txt",
+    "status": "READY (repository URL inserted; publication not verified)",
+    "weightedLength": 249,
+    "limit": 280,
+    "urlWeight": 23
+  },
+  "secretScan": {
+    "status": "PASS",
+    "realEnvValuesCompared": 1,
+    "markers": [
+      "private-key block",
+      "GitHub token"
+    ]
+  },
+  "warnings": [],
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 38286,
+      "sha256": "f743ab06516fde272f08fb3f7e241e6a90e66f18c5f5a5ff67cbdfd0afd644e0"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1078,
+      "sha256": "c707de4c78d25b4fea7aae5ba3433faa0b80f028ac294b42dc73fcb554494004"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 205,
+      "sha256": "cc9708507872c54b65318c693baa6c7bad3f1775e90c8e67245f25651c34e92f"
+    },
+    {
+      "path": ".gitattributes",
+      "bytes": 260,
+      "sha256": "2bab6f820ef9d680c34cce33be224ebf8e83f54a81d0990b5921fe42600774c3"
+    },
+    {
+      "path": ".env.example",
+      "bytes": 768,
+      "sha256": "dd93eb6152cb3b24c83e7a6423976cabcfa6dc5669f5dba34823c93a23c973ab"
+    },
+    {
+      "path": "package.json",
+      "bytes": 1085,
+      "sha256": "53db63037f42613c69aac3a684caad4d8f56c1f3bbb53aa6719c476e5b791d7c"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 87899,
+      "sha256": "9443de47132a5c3dd5495c93e90a77a15833d6e1894498d24e67466efd8ed106"
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 378,
+      "sha256": "c438a560edfe56bd39fa1c2820077c16b21a36d2feab068252b6856f02f72a63"
+    },
+    {
+      "path": "vite.config.ts",
+      "bytes": 151,
+      "sha256": "27c69a6d60bfe8eb3a92f5ce5d7df305fbb9130450eecb919c9a06411e8bd475"
+    },
+    {
+      "path": "index.html",
+      "bytes": 1199,
+      "sha256": "fb2d98f86f9f7514c593bc7264186b785a2eff89962487b17d563544859397dd"
+    },
+    {
+      "path": "src/AdminView.tsx",
+      "bytes": 13362,
+      "sha256": "cb7e0d95cd5fb726f5ebb9271c2da939e6122579f500ddb638df8f2b494d65d1"
+    },
+    {
+      "path": "src/App.tsx",
+      "bytes": 38446,
+      "sha256": "5cc8f3ceee58086ec12bbddf0105ba0576a909ca3fc55ddbb82e4934ceae7be7"
+    },
+    {
+      "path": "src/Coach.tsx",
+      "bytes": 13114,
+      "sha256": "5d6b4dcfddd0f5d1e63ca869f799fa4f5f40acb575526e3075be308131fbedee"
+    },
+    {
+      "path": "src/ErrorBoundary.tsx",
+      "bytes": 2814,
+      "sha256": "c03daf00e8e3fa2906d0d2863dd9f35767854c9d6d21e92825113f176494f55a"
+    },
+    {
+      "path": "src/FieldManual.tsx",
+      "bytes": 4047,
+      "sha256": "9deeb18cf7b9cee046dc71f2bb71f0fa0cc7736cf67bc5be4f1e7f53843161b1"
+    },
+    {
+      "path": "src/Investigation.tsx",
+      "bytes": 11514,
+      "sha256": "60dbd25faef7498524c5d44d2119582b71d066f50ad3607699371de0023e3181"
+    },
+    {
+      "path": "src/OnboardingModal.tsx",
+      "bytes": 10951,
+      "sha256": "c2b8e85f160f9464214919db24ccc5fe1ad4d1e3ab564a42ab34035aec301cfc"
+    },
+    {
+      "path": "src/WorldBoard.tsx",
+      "bytes": 25637,
+      "sha256": "d5e309a74de5258133f16ad85ed60741d42b55dc52ace1351b297073fc0e79f6"
+    },
+    {
+      "path": "src/api.ts",
+      "bytes": 7294,
+      "sha256": "1f50068eca32d38866f3162841b5a13f543ad06984a196197ecc73c11d6efffb"
+    },
+    {
+      "path": "src/coachSteps.ts",
+      "bytes": 40797,
+      "sha256": "ffda726f839a4c3b0b8d4ad4fbb3ef2156b8a8922b642c28669d7f211fb67228"
+    },
+    {
+      "path": "src/components.tsx",
+      "bytes": 17445,
+      "sha256": "5601f76985e1771be26c7219778d745c39f846efda86d0dad026e726a5a97ef2"
+    },
+    {
+      "path": "src/format.ts",
+      "bytes": 3578,
+      "sha256": "c3db8356b3a9673fffe5cbd7325f38e6af8b7a590dd398a1878f7d289fa0f3a0"
+    },
+    {
+      "path": "src/icons.tsx",
+      "bytes": 4848,
+      "sha256": "92e9c799d6e420090e2af19a7c97bd26ddcbed0aa47e60928b7501d196f89fa3"
+    },
+    {
+      "path": "src/main.tsx",
+      "bytes": 449,
+      "sha256": "2469de4d7fcc2f47d1abda399a9f62164fb511ef8f018e47982ecc06c341dc30"
+    },
+    {
+      "path": "src/manualData.ts",
+      "bytes": 14514,
+      "sha256": "9765919c5504596ff2cd0f2ffd3bf3a7497d8b1e3b68dfe69ba90991dc0e648d"
+    },
+    {
+      "path": "src/outcome.ts",
+      "bytes": 10885,
+      "sha256": "c0d71ac36f56cfeef0f80ca16d16acaea7d42731d41e570c20cefb75276029ba"
+    },
+    {
+      "path": "src/screens/EndScreen.tsx",
+      "bytes": 11141,
+      "sha256": "61ef66c898f999795b281488922df5cfecf72ce259ec0ef41cedce6ca1c6c739"
+    },
+    {
+      "path": "src/screens/ResolutionPanel.tsx",
+      "bytes": 11328,
+      "sha256": "29e99124d193297049757b8869062ebb068bf33b252496f1e43c00100af36d1e"
+    },
+    {
+      "path": "src/screens/Welcome.tsx",
+      "bytes": 7681,
+      "sha256": "e8a773b6451184c81d6e1f7d948faafca776ef886401af7e947d4aa3e68f24f0"
+    },
+    {
+      "path": "src/storage.ts",
+      "bytes": 5399,
+      "sha256": "6160f87d89bc3aceca28286e2a332fd5c89e2b45bcd7eef8cc782c22bea6c524"
+    },
+    {
+      "path": "src/styles.css",
+      "bytes": 63432,
+      "sha256": "7f4880abc80a95938f95b219a194d3fd1532bf83f48254cb711d3349bb185f18"
+    },
+    {
+      "path": "src/types.ts",
+      "bytes": 2209,
+      "sha256": "119a3b6dee03aa8680e41a6f1e01ba367dfacc26bbc136156c74588915405e19"
+    },
+    {
+      "path": "server/index.ts",
+      "bytes": 25665,
+      "sha256": "04d57b37d3d9667634b8d9b7018cc847ce51945f40bf459f3c165cf1f45d3600"
+    },
+    {
+      "path": "server/nansen.ts",
+      "bytes": 40635,
+      "sha256": "93d512832647813222793cbc97d1074d5d391e77b3d8fb418def02d140f3b119"
+    },
+    {
+      "path": "server/world.ts",
+      "bytes": 20810,
+      "sha256": "a201068fefbc11df7b8846f2061e078a2b4b74ed44421e8b3bc865cc3d81fcbf"
+    },
+    {
+      "path": "shared/engine.ts",
+      "bytes": 23060,
+      "sha256": "6fcc603916e1824f9b80ee975f127dec19f279def23cc9cc3ef4178526c23212"
+    },
+    {
+      "path": "shared/intel.ts",
+      "bytes": 27885,
+      "sha256": "df8ae445f564a2a7eaa2bb448acb2e73377dbc80892d6322fe33cd28672df1f6"
+    },
+    {
+      "path": "shared/types.ts",
+      "bytes": 11573,
+      "sha256": "7df5f83ce8279e2cfbb98af72faf21f08afb362b6eb242fe68e950abba32a666"
+    },
+    {
+      "path": "tests/coach.test.ts",
+      "bytes": 18980,
+      "sha256": "d1320c063eb69f07cfa85e7513862d35549c38b0e275204ef69b652d1050b7ec"
+    },
+    {
+      "path": "tests/engine.test.ts",
+      "bytes": 10077,
+      "sha256": "49fcc17afc452d35b63a2b5873ed7e7f87f44d8abc479681eb327b0f2cc27590"
+    },
+    {
+      "path": "tests/http.test.ts",
+      "bytes": 26763,
+      "sha256": "476eb8586a4893947aa30b229d5d3663d4fc452915e0b222e50148ef3dca4ab2"
+    },
+    {
+      "path": "tests/intel.test.ts",
+      "bytes": 7811,
+      "sha256": "2e56183dc1fea0b91c3683cc3b07e3edd92832c4c8ea86ea74c074442e91234a"
+    },
+    {
+      "path": "tests/nansen.test.ts",
+      "bytes": 22981,
+      "sha256": "fd6c37f164550b8fc871fade99ba88df240434f8c72c443726f7b97c2f809aaf"
+    },
+    {
+      "path": "scripts/balance.ts",
+      "bytes": 2124,
+      "sha256": "dc349554423a1ffdeb22ac4580e388c3a879e1b1249125d958d6ba7bf9443a6e"
+    },
+    {
+      "path": "scripts/browser-qa.mjs",
+      "bytes": 6021,
+      "sha256": "af6670fa7bb97440015e0ce8951ea3aa3bf67e21903fdbac270222c523eb6cca"
+    },
+    {
+      "path": "scripts/inspect-browser.mjs",
+      "bytes": 1744,
+      "sha256": "59f03b26072772f00a97d16cef84b251130243477af30e776d6e8957c631e14e"
+    },
+    {
+      "path": "scripts/live-smoke.ts",
+      "bytes": 3282,
+      "sha256": "6f8b77f633fc43e34b4c2997c0899817ebf875e5a3dfe1c3ee5927bb1583817b"
+    },
+    {
+      "path": "scripts/live-voyage.ts",
+      "bytes": 7112,
+      "sha256": "8f18984032bdbf2a8ef6bbda15bd17d7768c64b4efab578f680d379f7e1805e9"
+    },
+    {
+      "path": "scripts/prepare-release.cmd",
+      "bytes": 467,
+      "sha256": "e635b9cef1d28062b29df6831a6ba5778cf8c3bb9b0f9e197e0ed2792fcd5696"
+    },
+    {
+      "path": "scripts/prepare-release.mjs",
+      "bytes": 28916,
+      "sha256": "c46eb8a179e9f47f4661ca25d40bdcb2148e110ada305b37993c35ecfb3dbfd8"
+    },
+    {
+      "path": "scripts/probe.mjs",
+      "bytes": 1771,
+      "sha256": "374ae33652183bb98cd9040ce079ed9521c93420484e557c3e027cec1d6c3f93"
+    },
+    {
+      "path": "docs/COMPLIANCE.md",
+      "bytes": 7676,
+      "sha256": "fa516c98cce0457411d972831c9237d0df706330bb0bb8c81a86d0c329baab88"
+    },
+    {
+      "path": "docs/DESIGN.md",
+      "bytes": 9507,
+      "sha256": "9aa080bc9ac0366a73f0a0f36f65ae88e4452eda8cebe6ce7e6419c5b160d216"
+    },
+    {
+      "path": "docs/MECHANICS.md",
+      "bytes": 10202,
+      "sha256": "758ecb76a32262f3df66384adf08eba73f671a340f8317ec838ed3ce128434b2"
+    },
+    {
+      "path": "docs/PITCH_PLAYER_VALUE.md",
+      "bytes": 12564,
+      "sha256": "3183bf184b81183a2279918903f2de9cf0245c3e7008f7538f77ceab550d7835"
+    },
+    {
+      "path": "docs/PUBLISHING.md",
+      "bytes": 8238,
+      "sha256": "621f5dbbe07521ec0e49898971ddb17dee5d2145fd6bc9b4d28c95edb2e4f8e1"
+    },
+    {
+      "path": "docs/QA.md",
+      "bytes": 6169,
+      "sha256": "fd83823b4335913e4a8da7e7819169ef52464800bfd6b893679b81783d0898df"
+    },
+    {
+      "path": "docs/RESEARCH.md",
+      "bytes": 6622,
+      "sha256": "f88fe94edff0a42ff046f796044d4c4ba7f23840d63611521807ab29ed870850"
+    },
+    {
+      "path": "docs/SUBMISSION.md",
+      "bytes": 8489,
+      "sha256": "c93d9b5cd55aee210e78fb7b9c9f43660e5a40cc1b566531222ca605f59927a3"
+    },
+    {
+      "path": "docs/VIDEO_REVIEW.md",
+      "bytes": 2287,
+      "sha256": "9908acbc9dc9875de4421b2d0812bec7745392b3b30677226854cac6000dd39c"
+    },
+    {
+      "path": "docs/X_POST.md",
+      "bytes": 3003,
+      "sha256": "72852e9603acbf95235e46f7c689dbea6a8dfe057d0eb8d1485d2595d76153ac"
+    },
+    {
+      "path": "media/demo-poster.svg",
+      "bytes": 1867,
+      "sha256": "d41d6c326e81af7ce50e2c9c04a4b470364ec55a5eb40b36dbe1518bd2291e60"
+    },
+    {
+      "path": "media/veilwake-buildathon-60s.mp4",
+      "bytes": 48497462,
+      "sha256": "86d0501a4748bda7b095bea3d5a8ec96e0ea42e24e9c184a40edce2f85d11648"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "bytes": 752,
+      "sha256": "857e9271b24838f0bdcd27233aa1699672f851c99acb30d1d41ac608174a1c2a"
+    }
+  ],
+  "excluded": [
+    {
+      "path": ".env",
+      "reason": "not allowlisted"
+    },
+    {
+      "path": ".git",
+      "reason": "not allowlisted"
+    },
+    {
+      "path": ".runtime",
+      "reason": "not allowlisted"
+    },
+    {
+      "path": ".workbuddy-ai",
+      "reason": "not allowlisted"
+    },
+    {
+      "path": "dist",
+      "reason": "not allowlisted"
+    },
+    {
+      "path": "node_modules",
+      "reason": "not allowlisted"
+    },
+    {
+      "path": "outputs",
+      "reason": "not allowlisted"
+    }
+  ],
+  "notPerformed": [
+    "git init/stage/commit/push",
+    "GitHub publication or visibility check",
+    "X post",
+    "entry-form submission",
+    "API key upload",
+    "watching the video"
+  ]
+}

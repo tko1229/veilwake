@@ -1,0 +1,35 @@
+name: Verify build
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      NANSEN_API_KEY: ""
+      ADMIN_TOKEN: ""
+      MAX_API_CALLS_PER_HOUR: "0"
+      MAX_API_CALLS_PER_DAY: "0"
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+      - name: Use Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+      - name: Install locked dependencies
+        run: npm ci
+      - name: Type check
+        run: npm run typecheck
+      - name: Run mocked tests (no Nansen credits)
+        run: npm test
+      - name: Build production assets
+        run: npm run build

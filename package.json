@@ -1,0 +1,24 @@
+{
+  "name": "veilwake",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A fog-of-war strategy game whose currents are powered by Nansen's on-chain actor intelligence.",
+  "license": "MIT",
+  "author": "tko1229",
+  "repository": { "type": "git", "url": "https://github.com/tko1229/veilwake.git" },
+  "scripts": {
+    "dev": "tsx server/index.ts",
+    "build": "tsc --noEmit && vite build",
+    "start": "tsx server/index.ts --production",
+    "test": "tsx --test tests/*.test.ts",
+    "typecheck": "tsc --noEmit",
+    "balance": "tsx scripts/balance.ts",
+    "smoke": "tsx scripts/live-smoke.ts",
+    "voyage": "tsx scripts/live-voyage.ts",
+    "prepare:release": "node scripts/prepare-release.mjs"
+  },
+  "engines": { "node": ">=22.13.0" },
+  "dependencies": { "express": "^5.1.0", "lucide-react": "^0.468.0", "react": "^19.0.0", "react-dom": "^19.0.0", "tsx": "^4.20.0" },
+  "devDependencies": { "@types/express": "^5.0.0", "@types/node": "^22.0.0", "@types/react": "^19.0.0", "@types/react-dom": "^19.0.0", "typescript": "^5.7.0", "vite": "^6.3.0" }
+}
