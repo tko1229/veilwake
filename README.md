@@ -213,7 +213,7 @@ Raw Nansen labels are mapped server-side to coarse archetypes (smart money, whal
 
 ## Learn the platform
 
-- **Tutorial.** *Start the tutorial* on the title screen opens a three-chapter guided rehearsal. A coach highlights the next control and reacts to what you actually open, from the analyst workflow on a false calm to finding the open current yourself. See [Tutorial](#tutorial-guided-rehearsal).
+- **Tutorial.** *Start the tutorial* on the title screen opens a three-chapter guided rehearsal. A coach highlights the next control and reacts to what you actually open, from the analyst workflow on a false calm to finding the open current yourself.
 - **Token God Mode panel.** Each reach is laid out the way Nansen lays out a token. Every view names where it lives in the app (e.g. *Token God Mode → Buyers & Sellers*), the question it answers and its window.
 - **Field Manual.** Lists every Nansen feature as a *live mechanic* (the 8 API-backed views), *modelled* (Smart Money, Labels, Smart Alerts, timeframe comparison, Watchlists, Nansen AI) or *lesson only*, with the reason: Holders, Indicators, PnL Leaderboards, Portfolio, Points, Trading, Prediction Markets, Chains. Each entry has "how to do it on Nansen" steps and an `app.nansen.ai` link. Twelve practiced skills are tracked in localStorage (skill names only).
 - **Research logbook.** The end screen lists every token you sailed with the verdicts you saw. Each has an **Open on Nansen** link to that token's real Token God Mode page and a copyable **Nansen AI research prompt** built from your observations.
