@@ -1,7 +1,0 @@
-VEILWAKE: learn to investigate before you invest.
-
-8 Nansen API views power a fog-of-war strategy game. Research, decide, discover what you missed.
-
-Built for the @nansen_ai Meridian Buildathon. No wallet. No wagers.
-
-GitHub: https://github.com/tko1229/veilwake
