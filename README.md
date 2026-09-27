@@ -113,7 +113,7 @@ npm run voyage -- 3 keeper    # several voyages with a chosen doctrine
 
 `live-voyage` plays like a careful player (scout first, then toolkit views while lenses last, brace the reaches with the worst opened evidence, arm one Smart Alert, make timeframe calls) and fails with a non-zero exit code if any response contains an EVM address, a USD amount or the API key, if a toolkit view comes back `unavailable`, or if an Open-on-Nansen redirect breaks.
 
-`npm test` uses mocks and consumes **zero Nansen credits**. It exercises the engine, the Nansen client, the HTTP layer, the derivation rules (`tests/intel.test.ts`) and the tutorial coach (`tests/coach.test.ts`), including assertions that addresses and raw labels never appear in public game state. Browser QA is optional: `scripts/browser-qa.mjs` uses an installed browser automation binary supplied through `AGENT_BROWSER_BIN` and Chromium through `CHROME_PATH`; it intentionally exercises real live requests. See [QA](docs/QA.md).
+`npm test` uses mocks and consumes **zero Nansen credits**. It exercises the engine, the Nansen client, the HTTP layer, the derivation rules (`tests/intel.test.ts`) and the tutorial coach (`tests/coach.test.ts`), including assertions that addresses and raw labels never appear in public game state. Browser QA is optional: `scripts/browser-qa.mjs` uses an installed browser automation binary supplied through `AGENT_BROWSER_BIN` and Chromium through `CHROME_PATH`; it intentionally exercises real live requests.
 
 **Maintainer diagnostic (also paid):** `node scripts/probe.mjs` calls the live Token Screener and, if a candidate is returned, Flow Intelligence (normally up to two calls). It bypasses the game client's application budgets and prints diagnostic metadata; it is not part of setup, tests or release preparation. Do not publish its console output without reviewing it.
 
@@ -276,7 +276,7 @@ A fresh, fully uncached live voyage makes up to **74 calls**:
 
 ## Documentation, license & hackathon links
 
-- **Docs:** [player value & hackathon pitch](docs/PITCH_PLAYER_VALUE.md) · [submission kit](docs/SUBMISSION.md) · [publishing guide](docs/PUBLISHING.md) · [game mechanics](docs/MECHANICS.md) · [design](docs/DESIGN.md) · [compliance](docs/COMPLIANCE.md) · [QA](docs/QA.md) · [research](docs/RESEARCH.md)
+- **Docs:** [game mechanics](docs/MECHANICS.md) · [design](docs/DESIGN.md) · [compliance](docs/COMPLIANCE.md)
 - **Hackathon:** [Nansen Meridian Buildathon](https://nansen.ai/campaigns/meridian-buildathon) · [official help article](https://release.nansen.ai/help/articles/3540155-nansen-meridian-buildathon-sep-14-27) · [entry form](https://nansen-ai.typeform.com/meridian-submit)
 - **License:** [MIT](LICENSE) © 2026 VEILWAKE contributors.
 - **Creator:** a solo project by [tko1229](https://github.com/tko1229).
